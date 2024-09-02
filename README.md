@@ -1,6 +1,7 @@
 # Dating App Animation
-Simple basic features for a dating app developed with SwiftUI.
-No external library was used in this codebase.
+Simple basic features for a dating app developed with SwiftUI.<br>
+Good fundamental concepts for interview take home exercises.<br>
+No external library was used in this codebase.<br>
 
 ## Acceptance Criteria
 - [x] Profile card should include the name, age and a photo of the person
