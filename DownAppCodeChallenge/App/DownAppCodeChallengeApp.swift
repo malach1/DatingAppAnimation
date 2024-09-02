@@ -11,7 +11,8 @@ import SwiftUI
 struct DownAppCodeChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            MainTabView()
+            MainTabView(service: DaterService())
+                .preferredColorScheme(.dark)
         }
     }
 }

@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EA8B1742C73FD4700E92945 /* DaterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA8B1732C73FD4700E92945 /* DaterImageView.swift */; };
 		1EE29C742C733EB400A8CA86 /* DownAppCodeChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29C732C733EB400A8CA86 /* DownAppCodeChallengeApp.swift */; };
 		1EE29C782C733EB600A8CA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE29C772C733EB600A8CA86 /* Assets.xcassets */; };
 		1EE29C7B2C733EB600A8CA86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE29C7A2C733EB600A8CA86 /* Preview Assets.xcassets */; };
-		1EE29C852C733EB700A8CA86 /* DownAppCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29C842C733EB700A8CA86 /* DownAppCodeChallengeTests.swift */; };
-		1EE29C8F2C733EB700A8CA86 /* DownAppCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29C8E2C733EB700A8CA86 /* DownAppCodeChallengeUITests.swift */; };
-		1EE29C912C733EB700A8CA86 /* DownAppCodeChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29C902C733EB700A8CA86 /* DownAppCodeChallengeUITestsLaunchTests.swift */; };
 		1EE29CA82C733FB300A8CA86 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CA72C733FB300A8CA86 /* MainTabView.swift */; };
+		1EE29CAD2C7343BC00A8CA86 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CAC2C7343BC00A8CA86 /* HTTPDataDownloader.swift */; };
+		1EE29CAF2C7343DD00A8CA86 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CAE2C7343DD00A8CA86 /* SizeConstants.swift */; };
+		1EE29CB12C7343FA00A8CA86 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CB02C7343FA00A8CA86 /* APIError.swift */; };
+		1EE29CB32C73440E00A8CA86 /* Dater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CB22C73440E00A8CA86 /* Dater.swift */; };
+		1EE29CB62C7345AF00A8CA86 /* DaterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CB52C7345AF00A8CA86 /* DaterService.swift */; };
+		1EE29CB82C7345D800A8CA86 /* DaterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CB72C7345D700A8CA86 /* DaterModel.swift */; };
+		1EE29CBA2C7345F500A8CA86 /* DatersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CB92C7345F500A8CA86 /* DatersViewModel.swift */; };
+		1EE29CBC2C735A9600A8CA86 /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CBB2C735A9600A8CA86 /* NetworkingTests.swift */; };
+		1EE29CBF2C735AFD00A8CA86 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CBE2C735AFC00A8CA86 /* MockData.swift */; };
+		1EE29CC12C735FFA00A8CA86 /* MockDaterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CC02C735FFA00A8CA86 /* MockDaterService.swift */; };
+		1EE29CC32C73602700A8CA86 /* DatersViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CC22C73602700A8CA86 /* DatersViewModelTests.swift */; };
+		1EE29CC62C73715A00A8CA86 /* DateDownIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CC52C73715A00A8CA86 /* DateDownIndicatorView.swift */; };
+		1EE29CC82C7371A900A8CA86 /* DateIndicatorStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CC72C7371A900A8CA86 /* DateIndicatorStaticView.swift */; };
+		1EE29CCA2C7371C400A8CA86 /* DateIndicatorTransientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CC92C7371C400A8CA86 /* DateIndicatorTransientView.swift */; };
+		1EE29CCC2C7371E100A8CA86 /* DaterInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CCB2C7371E100A8CA86 /* DaterInfoView.swift */; };
+		1EE29CCE2C7371FA00A8CA86 /* DownIndicatorStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CCD2C7371FA00A8CA86 /* DownIndicatorStaticView.swift */; };
+		1EE29CD02C73721200A8CA86 /* DownIndicatorTransientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CCF2C73721200A8CA86 /* DownIndicatorTransientView.swift */; };
+		1EE29CD22C73723700A8CA86 /* DateLineUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CD12C73723700A8CA86 /* DateLineUpView.swift */; };
+		1EE29CD42C73725500A8CA86 /* DaterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE29CD32C73725500A8CA86 /* DaterCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +51,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EA8B1732C73FD4700E92945 /* DaterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaterImageView.swift; sourceTree = "<group>"; };
+		1EA8B1752C74040E00E92945 /* DownAppCodeChallenge.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = DownAppCodeChallenge.xctestplan; sourceTree = "<group>"; };
 		1EE29C702C733EB400A8CA86 /* DownAppCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownAppCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE29C732C733EB400A8CA86 /* DownAppCodeChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownAppCodeChallengeApp.swift; sourceTree = "<group>"; };
 		1EE29C772C733EB600A8CA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE29C7A2C733EB600A8CA86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1EE29C802C733EB700A8CA86 /* DownAppCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownAppCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EE29C842C733EB700A8CA86 /* DownAppCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownAppCodeChallengeTests.swift; sourceTree = "<group>"; };
 		1EE29C8A2C733EB700A8CA86 /* DownAppCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownAppCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EE29C8E2C733EB700A8CA86 /* DownAppCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownAppCodeChallengeUITests.swift; sourceTree = "<group>"; };
-		1EE29C902C733EB700A8CA86 /* DownAppCodeChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownAppCodeChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1EE29CA72C733FB300A8CA86 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		1EE29CAC2C7343BC00A8CA86 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
+		1EE29CAE2C7343DD00A8CA86 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
+		1EE29CB02C7343FA00A8CA86 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		1EE29CB22C73440E00A8CA86 /* Dater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dater.swift; sourceTree = "<group>"; };
+		1EE29CB52C7345AF00A8CA86 /* DaterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaterService.swift; sourceTree = "<group>"; };
+		1EE29CB72C7345D700A8CA86 /* DaterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaterModel.swift; sourceTree = "<group>"; };
+		1EE29CB92C7345F500A8CA86 /* DatersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatersViewModel.swift; sourceTree = "<group>"; };
+		1EE29CBB2C735A9600A8CA86 /* NetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTests.swift; sourceTree = "<group>"; };
+		1EE29CBE2C735AFC00A8CA86 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		1EE29CC02C735FFA00A8CA86 /* MockDaterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDaterService.swift; sourceTree = "<group>"; };
+		1EE29CC22C73602700A8CA86 /* DatersViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatersViewModelTests.swift; sourceTree = "<group>"; };
+		1EE29CC52C73715A00A8CA86 /* DateDownIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDownIndicatorView.swift; sourceTree = "<group>"; };
+		1EE29CC72C7371A900A8CA86 /* DateIndicatorStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateIndicatorStaticView.swift; sourceTree = "<group>"; };
+		1EE29CC92C7371C400A8CA86 /* DateIndicatorTransientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateIndicatorTransientView.swift; sourceTree = "<group>"; };
+		1EE29CCB2C7371E100A8CA86 /* DaterInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaterInfoView.swift; sourceTree = "<group>"; };
+		1EE29CCD2C7371FA00A8CA86 /* DownIndicatorStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownIndicatorStaticView.swift; sourceTree = "<group>"; };
+		1EE29CCF2C73721200A8CA86 /* DownIndicatorTransientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownIndicatorTransientView.swift; sourceTree = "<group>"; };
+		1EE29CD12C73723700A8CA86 /* DateLineUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLineUpView.swift; sourceTree = "<group>"; };
+		1EE29CD32C73725500A8CA86 /* DaterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaterCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +109,9 @@
 		1EE29C672C733EB300A8CA86 = {
 			isa = PBXGroup;
 			children = (
+				1EA8B1752C74040E00E92945 /* DownAppCodeChallenge.xctestplan */,
 				1EE29C722C733EB400A8CA86 /* DownAppCodeChallenge */,
 				1EE29C832C733EB700A8CA86 /* DownAppCodeChallengeTests */,
-				1EE29C8D2C733EB700A8CA86 /* DownAppCodeChallengeUITests */,
 				1EE29C712C733EB400A8CA86 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,18 +149,11 @@
 		1EE29C832C733EB700A8CA86 /* DownAppCodeChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				1EE29C842C733EB700A8CA86 /* DownAppCodeChallengeTests.swift */,
+				1EE29CBD2C735AE800A8CA86 /* MockData */,
+				1EE29CC22C73602700A8CA86 /* DatersViewModelTests.swift */,
+				1EE29CBB2C735A9600A8CA86 /* NetworkingTests.swift */,
 			);
 			path = DownAppCodeChallengeTests;
-			sourceTree = "<group>";
-		};
-		1EE29C8D2C733EB700A8CA86 /* DownAppCodeChallengeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1EE29C8E2C733EB700A8CA86 /* DownAppCodeChallengeUITests.swift */,
-				1EE29C902C733EB700A8CA86 /* DownAppCodeChallengeUITestsLaunchTests.swift */,
-			);
-			path = DownAppCodeChallengeUITests;
 			sourceTree = "<group>";
 		};
 		1EE29C9D2C733F1D00A8CA86 /* App */ = {
@@ -148,6 +176,9 @@
 		1EE29C9F2C733F2800A8CA86 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1EE29CA92C73438000A8CA86 /* API */,
+				1EE29CAA2C73438900A8CA86 /* Constants */,
+				1EE29CAB2C73439100A8CA86 /* Models */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -182,6 +213,7 @@
 		1EE29CA32C733F8700A8CA86 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1EE29CB72C7345D700A8CA86 /* DaterModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +221,9 @@
 		1EE29CA42C733F8F00A8CA86 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1EE29CC42C73713B00A8CA86 /* Components */,
+				1EE29CD12C73723700A8CA86 /* DateLineUpView.swift */,
+				1EE29CD32C73725500A8CA86 /* DaterCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -196,6 +231,7 @@
 		1EE29CA52C733F9400A8CA86 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1EE29CB92C7345F500A8CA86 /* DatersViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -203,8 +239,57 @@
 		1EE29CA62C733F9A00A8CA86 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				1EE29CB52C7345AF00A8CA86 /* DaterService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		1EE29CA92C73438000A8CA86 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1EE29CAC2C7343BC00A8CA86 /* HTTPDataDownloader.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1EE29CAA2C73438900A8CA86 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1EE29CAE2C7343DD00A8CA86 /* SizeConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1EE29CAB2C73439100A8CA86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1EE29CB02C7343FA00A8CA86 /* APIError.swift */,
+				1EE29CB22C73440E00A8CA86 /* Dater.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1EE29CBD2C735AE800A8CA86 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				1EE29CBE2C735AFC00A8CA86 /* MockData.swift */,
+				1EE29CC02C735FFA00A8CA86 /* MockDaterService.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		1EE29CC42C73713B00A8CA86 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1EE29CC52C73715A00A8CA86 /* DateDownIndicatorView.swift */,
+				1EE29CC72C7371A900A8CA86 /* DateIndicatorStaticView.swift */,
+				1EE29CC92C7371C400A8CA86 /* DateIndicatorTransientView.swift */,
+				1EA8B1732C73FD4700E92945 /* DaterImageView.swift */,
+				1EE29CCB2C7371E100A8CA86 /* DaterInfoView.swift */,
+				1EE29CCD2C7371FA00A8CA86 /* DownIndicatorStaticView.swift */,
+				1EE29CCF2C73721200A8CA86 /* DownIndicatorTransientView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,8 +422,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE29CCC2C7371E100A8CA86 /* DaterInfoView.swift in Sources */,
 				1EE29C742C733EB400A8CA86 /* DownAppCodeChallengeApp.swift in Sources */,
+				1EE29CAD2C7343BC00A8CA86 /* HTTPDataDownloader.swift in Sources */,
+				1EE29CC62C73715A00A8CA86 /* DateDownIndicatorView.swift in Sources */,
+				1EE29CCE2C7371FA00A8CA86 /* DownIndicatorStaticView.swift in Sources */,
+				1EA8B1742C73FD4700E92945 /* DaterImageView.swift in Sources */,
+				1EE29CD22C73723700A8CA86 /* DateLineUpView.swift in Sources */,
+				1EE29CAF2C7343DD00A8CA86 /* SizeConstants.swift in Sources */,
+				1EE29CB62C7345AF00A8CA86 /* DaterService.swift in Sources */,
+				1EE29CBA2C7345F500A8CA86 /* DatersViewModel.swift in Sources */,
+				1EE29CCA2C7371C400A8CA86 /* DateIndicatorTransientView.swift in Sources */,
+				1EE29CB82C7345D800A8CA86 /* DaterModel.swift in Sources */,
+				1EE29CD42C73725500A8CA86 /* DaterCardView.swift in Sources */,
+				1EE29CB12C7343FA00A8CA86 /* APIError.swift in Sources */,
+				1EE29CB32C73440E00A8CA86 /* Dater.swift in Sources */,
 				1EE29CA82C733FB300A8CA86 /* MainTabView.swift in Sources */,
+				1EE29CC82C7371A900A8CA86 /* DateIndicatorStaticView.swift in Sources */,
+				1EE29CD02C73721200A8CA86 /* DownIndicatorTransientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +447,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE29C852C733EB700A8CA86 /* DownAppCodeChallengeTests.swift in Sources */,
+				1EE29CC12C735FFA00A8CA86 /* MockDaterService.swift in Sources */,
+				1EE29CBF2C735AFD00A8CA86 /* MockData.swift in Sources */,
+				1EE29CBC2C735A9600A8CA86 /* NetworkingTests.swift in Sources */,
+				1EE29CC32C73602700A8CA86 /* DatersViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,8 +458,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE29C8F2C733EB700A8CA86 /* DownAppCodeChallengeUITests.swift in Sources */,
-				1EE29C912C733EB700A8CA86 /* DownAppCodeChallengeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

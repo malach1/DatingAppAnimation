@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "2D4D6EAB-6F55-4139-A209-C314D1BCB0DE",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:DownAppCodeChallenge.xcodeproj",
+      "identifier" : "1EE29C6F2C733EB400A8CA86",
+      "name" : "DownAppCodeChallenge"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:DownAppCodeChallenge.xcodeproj",
+        "identifier" : "1EE29C7F2C733EB700A8CA86",
+        "name" : "DownAppCodeChallengeTests"
+      }
+    }
+  ],
+  "version" : 1
+}

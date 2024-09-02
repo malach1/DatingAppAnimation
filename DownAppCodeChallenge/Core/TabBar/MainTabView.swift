@@ -7,13 +7,19 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct MainTabView: View {
+    
+    private let service: DataServiceProtocol
+    @StateObject var viewModel: DatersViewModel
+    
+    init(service: DataServiceProtocol) {
+        self.service = service
+        self._viewModel = StateObject(wrappedValue: DatersViewModel(service: service))
+    }
     
     var body: some View {
         TabView {
-            Text("Date Line Up")
+            DateLineUpView(viewModel: viewModel)
                 .tabItem {
                     Label("Down", systemImage: "rectangle.portrait.on.rectangle.portrait.angled.fill")
                 }
@@ -39,5 +45,5 @@ struct MainTabView: View {
 }
 
 #Preview {
-    MainTabView()
+    MainTabView(service: DaterService())
 }
