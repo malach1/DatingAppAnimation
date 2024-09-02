@@ -24,4 +24,4 @@ MockData and MockService has been created for Unit Testing to test the basic fun
 When a person match to Date/Down, an animation is executed when changing profiles.  The Date/Down indicator slowly shows up as user drags the Dater image.  I chose to show the linear gradient colors when a match is executed.
 
 # Demo
-![DownAppCodeChallengeDemo](https://github.com/user-attachments/assets/ad23b2bc-754d-4810-9bda-263c48b9d0b8)
+![datingApp](https://github.com/user-attachments/assets/4a93f59e-4fcd-4a2b-a855-ebe944527ab1)
